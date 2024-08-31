@@ -115,6 +115,7 @@ body {
 .edit-btn {
     border: none !important;
     color: white;
+    background-color:#198754;
 }
 
 .delete-btn {
