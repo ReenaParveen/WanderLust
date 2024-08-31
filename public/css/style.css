@@ -37,7 +37,7 @@ body {
 .f-info-links,
 .f-info-socials,
 .f-info-brand {
-    width: 100%;
+    width: 100% !important;
     vertical-align: mid;
     display: flex;
     align-items: center;
