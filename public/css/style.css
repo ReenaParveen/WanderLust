@@ -112,12 +112,12 @@ body {
 }
 
 /* Edit page form */
-.editbtn {
+.edit-btn {
     border: none !important;
     color: white;
 }
 
-.btn-delete {
+.delete-btn {
     border: none !important;
     color: white;
     background-color: #fe424d !important;
