@@ -112,6 +112,11 @@ body {
 }
 
 /* Edit page form */
+
+.btns{
+    display: flex;
+}
+
 .edit-btn {
     border: none !important;
     color: white;
