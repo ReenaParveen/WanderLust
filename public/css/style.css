@@ -30,6 +30,7 @@ body {
 .f-info-links a {
     text-decoration: none;
 }
+
 .f-info-links a:hover {
     text-decoration: underline;
 }
@@ -38,7 +39,6 @@ body {
 .f-info-socials,
 .f-info-brand {
     width: 100% !important;
-    vertical-align: mid;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,13 +51,20 @@ body {
 
 .f-info {
     text-align: center;
-    height: 8rem;
+    min-height: 8rem;
     background-color: #ebebeb;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: space-evenly;
+    align-items: center; /* Centered content */
 }
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
 
 
 /* Cards */
